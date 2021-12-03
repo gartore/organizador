@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Ainventario</string>
+    <string name="listo">listo</string>
+    <string name="cargando">Cargando...</string>
 </resources>

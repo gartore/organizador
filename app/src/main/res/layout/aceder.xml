@@ -7,7 +7,7 @@
 
     <EditText
         android:id="@+id/Ecorreo"
-        android:layout_width="263dp"
+        android:layout_width="wrap_content"
         android:layout_height="48dp"
         android:ems="10"
         android:inputType="textEmailAddress"
@@ -16,7 +16,8 @@
         app:layout_constraintHorizontal_bias="0.608"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.184" />
+        app:layout_constraintVertical_bias="0.184"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
 
     <TextView
         android:id="@+id/textView"
@@ -44,7 +45,7 @@
 
     <EditText
         android:id="@+id/editTextTextPassword"
-        android:layout_width="264dp"
+        android:layout_width="wrap_content"
         android:layout_height="48dp"
         android:ems="10"
         android:inputType="textPassword"
@@ -59,6 +60,7 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="Ppasar0"
         android:text=" regresar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -71,6 +73,7 @@
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="Ppasar2y"
         android:text="Siguiente"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -83,6 +86,7 @@
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="Ppasar2n"
         android:text="continuar sin ingresar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
